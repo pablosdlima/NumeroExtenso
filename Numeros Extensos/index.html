@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeros por Extenso</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">     
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+</head>
+<body class="row card-panel teal blue lighten-4 ">
+    <header>
+        <h2 class="truncate" align="center">Numeros por extenso</h1>
+        <h6 align="center">Escolha um número entre 0 e 999</h5>
+    </header>
+    <section style="margin-left:25%;" class="col s6 card-panel hoverable">
+        <input type="range" min="1" max="999" value="0" name="" id="rg" oninput="passe()">
+        <br>
+        <br>
+        <p for="">Número atual:</p>
+        <br>
+        <strong align="center"><p id="exibir"></p></strong>
+        <br>
+        <hr>
+        <p for="">Número por extenso:</p>
+        <br>
+        <strong><p align="center" id="extenso"></p></strong>
+    </section>
+
+    <script src="script.js"></script>
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+       
+</body>
+</html>

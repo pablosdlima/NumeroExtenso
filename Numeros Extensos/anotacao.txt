@@ -1,0 +1,1 @@
+textContent = Captura o conteúdo do elemento/var/tag
